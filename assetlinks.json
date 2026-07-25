@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.abirmahmud.talkpeer",
+      "sha256_cert_fingerprints": [
+        "C6:C8:FD:84:7B:FC:F8:CA:0A:C2:A5:F2:00:E6:16:9E:E1:08:25:65:39:68:8A:70:88:D4:6E:F1:39:91:C4:5F"
+      ]
+    }
+  }
+]

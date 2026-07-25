@@ -1,0 +1,20 @@
+{
+  "name": "talkpeer-android",
+  "version": "1.0.0",
+  "description": "TalkPeer — P2P WebRTC video meetings, Android app",
+  "author": "Abir Mahmud <https://github.com/AbirKni>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "build:debug": "cd android && gradlew.bat assembleDebug || ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
